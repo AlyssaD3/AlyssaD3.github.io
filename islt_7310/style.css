@@ -4,15 +4,16 @@
     text-align: center;
 }
 
+
 h1 { 
     color: #0099ff;
+    text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;    
 }
 
-h2 { 
-      font-family:Verdana, Geneva, Tahoma, sans-serif;    
+h3 {
+      text-align: center;
 }
-
 p {
     font-family:Arial, Helvetica, sans-serif   
 }
@@ -23,7 +24,13 @@ p {
     justify-content: center;
 }
 
-.text{
+.image {
+    text-align: center;
+}
+.text {
+    font-size: 18px;
+    display: inline-block;
+    text-align: justify;
     width: 550px;
     padding: 20px;
 }
@@ -40,8 +47,3 @@ footer {
     background-color: #F7A3B1;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
