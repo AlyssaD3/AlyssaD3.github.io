@@ -11,17 +11,18 @@ header {
     background: #F7A3B1;
 }
 
-.welcomebanner {
-    margin: auto;
-    margin-top: auto;    
-}
+.responsive {
+    width: 100%;
+    max-width: 1903px;
+    height: auto;
+  }
 
 header ul {
     display: flex;
-    justify-content: flex-end;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0;
+    justify-content: center;
+    max-width: 2000px;
+    margin: 0px;
+    padding: 0px;
 }
 
 header ul li {
@@ -70,5 +71,11 @@ header ul li:hover ul {
         width: 100%;
         z-index: 1;
     }
-    /* I am also trying to figure out the responsice design for .welcomebanner {} */
+       /* I am also trying to figure out the responsive design for .welcomebanner {} */
 }
+
+@media (min-width: 368px) {
+    .welcomebanner {
+        display: block;
+    }
+}    
