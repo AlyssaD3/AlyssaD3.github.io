@@ -82,7 +82,21 @@ p {
 blockquote {
     text-align: center;
 }
+.picbig {
+    position: abosulte;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index: 10;
+}
 
+.fafa-envelope + .picbig {
+    width:200px;
+} 
+
+.fafa-phone + .picbig {
+    width:200px;
+}
 footer {
     font-family: "caladea-bolditalic", serif;
     font-size: 14px;
