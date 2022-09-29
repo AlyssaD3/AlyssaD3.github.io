@@ -89,7 +89,7 @@ footer {
     width: auto;
     padding: 5px;
     text-align: center;
-    color: white;
+    color: #000;
     background-image: url("https://alyssad3.github.io/islt_7310/images/footerbackground.png");
 }
 
@@ -98,3 +98,34 @@ footer {
         width: 100%;
     }
 }  
+
+@media print {
+    header {
+        display: none;
+    }
+    h1 {
+        margin: 1in;
+           }
+    .aboutme {
+        font-size: 11pt;
+        line-height: auto;
+        margin: 1in;
+        padding: 0em;
+        background: none;
+        color: #000;
+    }
+    blockquote {
+        text-align: center;
+        font-size: 12pt;
+        padding: 0em;
+    }
+    br {
+        display: none;
+    }
+    footer {
+        font-family: "caladea-bolditalic", serif;
+        width: 100%;
+        padding: 0em;
+        color: #000;
+    }
+}
