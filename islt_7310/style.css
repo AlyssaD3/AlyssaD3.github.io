@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "caladea-bolditalic";
+    src: url(https://alyssad3.github.io/islt_7310/fonts/caladea-bolditalic.ttf);
+}
+
 .main-banner {
     width: 0;
     padding: 0;
@@ -17,7 +22,8 @@ h1 {
 }
 
 p {
-    font-family:Arial, Helvetica, sans-serif   
+    color: #000;
+    font-family:Arial, Helvetica, serif
 }
 
 .perref {
@@ -78,12 +84,13 @@ blockquote {
 }
 
 footer {
+    font-family: "caladea-bolditalic", serif;
     font-size: 14px;
     width: auto;
     padding: 5px;
     text-align: center;
     color: white;
-    background-color: #F7A3B1;
+    background-image: url("https://alyssad3.github.io/islt_7310/images/footerbackground.png");
 }
 
 @media (min-width: 368px) {
