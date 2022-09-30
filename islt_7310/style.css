@@ -58,10 +58,11 @@ p {
 }
 
 .aboutme {
+    font-size: 22px;
     align-items: center;
     justify-content: center;
     margin: 10px;
-    padding: 10px;
+    padding: 100px;
 }
 
 .imageofme {
@@ -82,21 +83,16 @@ p {
 blockquote {
     text-align: center;
 }
-.picbig {
-    position: abosulte;
-    width: 0px;
-    -webkit-transition: width 0.3s linear 0s;
-    transition: width 0.3s linear 0s;
-    z-index: 10;
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
 }
 
-.fafa-envelope + .picbig {
-    width:200px;
-} 
-
-.fafa-phone + .picbig {
-    width:200px;
+video {
+    width: 100%;
 }
+
 footer {
     font-family: "caladea-bolditalic", serif;
     font-size: 14px;
@@ -109,7 +105,7 @@ footer {
 
 @media (min-width: 368px) {
     .computerwithcanva {
-        width: 100%;
+        width: 500%;
     }
 }  
 
