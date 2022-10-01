@@ -93,10 +93,55 @@ video {
     width: 100%;
 }
 
+/*creating a brochure section*/
+.brochurecontainer {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    margin-top: 0;
+    margin-left: 25px;
+    
+}
+.cimage {
+    display: inline-block;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    width: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+/*creating a flyer section*/
+.flyercontainer {
+    border: 1px solid red;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    margin-top: 0;
+    margin-left: 25px;
+    
+}
+.bfimage {
+    border: 1px solid red;
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    width: 800px;
+    margin-left: 25px;
+ 
+}
+
+/*footer section*/
 footer {
     font-family: "caladea-bolditalic", serif;
     font-size: 14px;
-    width: auto;
+    width: 0 auto;
     padding: 5px;
     text-align: center;
     color: #000;
