@@ -27,19 +27,13 @@ p {
 }
 
 .perref {
-    margin: 10px;
-    padding: 10px;
-}
-
-.computerwithcanva {
-    text-align: center;
-    width: 20%;
-    padding: 5px;
+    margin: 50px;
+    padding: 0;
 }
 
 .workingwithcanva{
-    margin: 25px;
-    padding: px;
+    margin: 50px;
+    padding: 0;
 }
 .resources {
     margin: 10px;
@@ -84,17 +78,12 @@ blockquote {
     text-align: center;
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
-}
-
 video {
     width: 100%;
 }
 
-/*creating a brochure section*/
-.brochurecontainer {
+/*create with canva section*/
+.cancontainer {
     display: inline-block;
     align-items: center;
     justify-content: center;
@@ -108,15 +97,14 @@ video {
     display: inline-block;
     align-items: right;
     justify-content: right;
-    text-align: right;
+    text-align: center;
     width: 800px;
     margin: 0;
     padding: 0;
 }
 
-/*creating a flyer section*/
+/*create a brochure and flyer section*/
 .flyercontainer {
-    border: 1px solid red;
     display: inline-block;
     align-items: center;
     justify-content: center;
@@ -127,16 +115,45 @@ video {
     
 }
 .bfimage {
-    border: 1px solid red;
     display: inline-block;
     align-items: left;
     justify-content: left;
-    text-align: left;
+    text-align: center;
     width: 800px;
     margin-left: 25px;
- 
 }
 
+/*creating a video section*/
+
+h2 {
+    text-align: center;
+}
+.videocontainer1 {
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+    text-align: justify;
+    margin-left: 250px;
+    width: 600px;
+    padding: 10px;
+}
+
+.videocontainer2 {
+    display: inline-block;
+    align-items: right;
+    justify-content: right;
+    text-align: justify;
+    margin-left: 100px;
+    width: 600px;
+    padding: 10px;
+}
+.vtext {
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+}
 /*footer section*/
 footer {
     font-family: "caladea-bolditalic", serif;
@@ -147,12 +164,6 @@ footer {
     color: #000;
     background-image: url("https://alyssad3.github.io/islt_7310/images/footerbackground.png");
 }
-
-@media (min-width: 368px) {
-    .computerwithcanva {
-        width: 500%;
-    }
-}  
 
 @media print {
     header {
