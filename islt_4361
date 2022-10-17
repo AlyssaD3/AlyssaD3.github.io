@@ -1,0 +1,382 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: 24px;
+}
+
+header {
+    width: 100%;
+    padding: 0;
+    background: #F7A3B1;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 1903px;
+    height: auto;
+  }
+
+header ul {
+    display: flex;
+    justify-content: center;
+    max-width: 2000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header ul li {
+    list-style: none;
+    position: relative;
+    padding: 10px 0px;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+header ul li:hover {
+    background: #C8D0D8;
+}
+
+header ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 0 20px;
+}  
+
+header ul li ul {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    background: #F7A3B1;
+    display: block;
+    width: 128px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}    
+
+header ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}   
+
+@media (max-width: 768px) {
+    header ul {
+        display: block;
+    }
+    header ul li {
+        display: block;
+    }
+    header ul li ul{
+        width: 100%;
+        z-index: 1;
+    }
+       /* I am also trying to figure out the responsive design for .welcomebanner {} */
+}
+
+@media (min-width: 368px) {
+    .welcomebanner {
+        display: block;
+    }
+}    
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styleforDM.css">
+    <link rel="stylesheet" href="[nav]forDM.css">
+    <link rel="icon" type="image/x-icon" href="https://alyssad3.github.io/islt_7310/images/favicon%20logo.png">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/caladea" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>     
+<body>
+    <header>
+            <ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="Project.html">Assignments</a>
+        <ul>
+            <li><a href="#Project1">Project 1</a></li>     
+            <li><a href="#Project2">Project 2</a></li>     
+            <li><a href="#Project3">Project 3</a></li>       
+            <li><a href="#Project4">Project 4 / Final Project</a></li>     
+        </ul> 
+        </ul>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br> 
+</div>
+<h1 id="top">Alyssa Dismuke</h1>
+    <div class="aboutme">
+    <div class="imageofme">
+    <img src="https://AlyssaD3.github.io/islt_7310/images/ad.png" alt="Alyssa Dismuke" style="width:250px;height:250px;"></div>
+        
+    <p>My name is Alyssa Dismuke and I am currently enrolled in the bachelor's degree of Educational Studies. This is my first semester at Mizzou and I am a transfer student from California. I never experineced humidity really until coming here, so this is different. I obtained my associates degree in Business Operations Management in 2020.</p> 
+    <p>I have a laser machine and I used to be heavily into sublimation but have since let that go. One of my all time favorite things to do is read. My husband, Jimmy, and I have two orange maine coon cats named Friday and Weasley as well as a chinchilla named Ozzy.</p>
+    <p>I have 10 years of office expeience and love it! Using Canva has greatly enhanced my workflow and with their growing catalog of template, project sizes, and assets, I am able to adapt Canva into more of my work. My education and experience with Canva are: </p>
+        <ol>
+            <li>Creating mock ups</li>
+            <li>Designing templates</li>
+            <li>Creating social media content</li>
+            <li>Designing banners and other marketing materials</li>
+        </ol>    
+    <p>Want to know more about me? Here is my <a href="https://drive.google.com/file/d/1EOZ5VvV7nMQgoBxSpSNMurXfVTnNuOgp/view?usp=sharing"> Resume</a> or you can watch my resume video!</p> 
+    <div class="wrapper">
+        <video autoplay controls>
+            <source src="https://alyssad3.github.io/islt_7310/videos/Video%20Alyssa%20Dismuke.mp4">
+        </video>
+    </div>
+    </div>
+    <br>
+    <br>
+    <p><a href="#top">Back to top</a></p>
+    <footer>
+        <div class="footer-contact">
+        <div>      
+        <p><i class="fa fa-envelope"></i><a href="mailto:ADK6V@umsystem.edu"> ADK6V@umsystem.edu </a></p> 
+        <p><i class="fa fa-phone"></i> <a href="tel:18888888888">1+888-888-8888</a></p>
+        </div>
+        <div class="name">
+            <p>&copy;2022 by <strong>Alyssa Dismuke</strong> 
+                <p>All Rights Reserved.</p>     
+                <p>*This a fictional site for educational purposes.*</p>
+        </div>  
+    </div>
+    </footer>
+</body>
+</html>
+@font-face {
+    font-family: "caladea-bolditalic";
+    src: url(https://alyssad3.github.io/islt_7310/fonts/caladea-bolditalic.ttf);
+}
+
+.main-banner {
+    width: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.introsection {
+    margin: 10px;
+    padding: 10px;
+}
+h1 { 
+    margin: auto;
+    padding: 0;
+    color: #0099ff;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+p {
+    color: #000;
+    font-family:Arial, Helvetica, serif
+}
+
+.perref {
+    margin: 50px;
+    padding: 0;
+}
+
+.workingwithcanva{
+    margin: 50px;
+    padding: 0;
+}
+.resources {
+    margin: 10px;
+    padding: 10px;
+}
+
+.background-color {
+    background-color: #9AA7B2;
+    border: 1px solid #000;
+}
+
+.container {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme {
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 100px;
+}
+
+.imageofme {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+.text {
+    font-size: 18px;
+    display: inline-block;
+    text-align: justify;
+    width: 550px;
+    padding: 20px;
+}
+
+blockquote {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+}
+
+/*create with canva section*/
+.cancontainer {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    margin-top: 0;
+    margin-left: 25px;
+    
+}
+.cimage {
+    display: inline-block;
+    align-items: right;
+    justify-content: right;
+    text-align: center;
+    width: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+/*create a brochure and flyer section*/
+.flyercontainer {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    margin-top: 0;
+    margin-left: 25px;
+    
+}
+.bfimage {
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    margin-left: 25px;
+}
+
+/*creating a video section*/
+
+h2 {
+    text-align: center;
+}
+.videocontainer1 {
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+    text-align: justify;
+    margin-left: 250px;
+    width: 600px;
+    padding: 10px;
+}
+
+.videocontainer2 {
+    display: inline-block;
+    align-items: right;
+    justify-content: right;
+    text-align: justify;
+    margin-left: 100px;
+    width: 600px;
+    padding: 10px;
+}
+.vtext {
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+}
+
+
+/*contact form*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #FFFCED; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: #F7A3B1;
+    font-weight: bold;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.container {
+    margin-top: 0;
+    margin-left: 80px;
+    text-align: left;
+    color: #FFFCED;
+    border-radius: 15px;
+    background-color: #18727D;
+    padding: 20px;
+}
+
+/*footer section*/
+footer {
+    font-family: "caladea-bolditalic", serif;
+    font-size: 14px;
+    width: 0 auto;
+    padding: 5px;
+    text-align: center;
+    color: #000;
+    background-image: url("https://alyssad3.github.io/islt_7310/images/footerbackground.png");
+}
+
+@media print {
+    header {
+        display: none;
+    }
+    h1 {
+        margin: 1in;
+           }
+    .aboutme {
+        font-size: 11pt;
+        line-height: auto;
+        margin: 1in;
+        padding: 0em;
+        background: none;
+        color: #000;
+    }
+    blockquote {
+        text-align: center;
+        font-size: 12pt;
+        padding: 0em;
+    }
+    br {
+        display: none;
+    }
+    footer {
+        font-family: "caladea-bolditalic", serif;
+        width: 100%;
+        padding: 0em;
+        color: #000;
+    }
+}
