@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Console demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <main>
+    <!----  Header --->
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-dark">
+                <img class="m-2" src="mu_logo.png" width="20" height="25" alt="logo"/>
+                <p class="fs-4 text-light">HOMEWORK WEEK 2</p>
+            </header>
+        </div>
+    <!---  End of Header  --->
+        
+    <!-- Dashboard Body -->
+    <div class="p-5 mb-4 bg-light">
+        <div class="container-fluid py-5">
+          <h1 class="display-6 fw-bold">Course Dashboard</h1>
+          <hr/>
+          <span class="badge bg-secondary fs-6 ">Browse all the avaliable courses</span>
+          <br/>
+          <!-----  Card Container  ----->
+          <div class="mt-4 row">
+            <!------ Course Card  ---->
+            <div class="card col-md-5 m-3 p-0">
+                <div class="card-header bg-dark text-light" >
+                Interactive Web Design  <span id="recommend" class="badge bg-success"></span>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">ID: <span>4310/7310</span></p>
+                    <p class="card-text">Instructor: <span>Dan</span></p>
+                    <p class="card-text">Weeks: <span id="weeks">8</span></p>
+                    <p class="card-text">Homework: <span id="homework">Yes</span></p>
+                    <p class="card-text">Final Exam: <span id="exam">No</span></p>
+                    <p class="card-text">Prerequisites: <span id="prerequisites">Yes</span></p>
+                    <p class="card-text">Difficulty: <span id="difficulty"></span></p>
+                </div>
+            </div>
+            <!------  End of Course Card  ---->
+          </div>
+        <!-----  End of Card Container  ----->
+        </div>
+      </div>
+    <!-- End of Dashboard Body -->
+
+    <!------- Footer  -------->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+              <img class="m-2" src="mu_logo3.png" alt="footer logo" width="35" height="25">
+            </a>
+            <p class="mb-3 mb-md-0 text-muted">&copy; <span id="my_name">Alyssa Dismuke</span></p>
+        </div>
+        </footer>
+      </div>
+      <!------- End of Footer  -------->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+  </body>
+</html>
